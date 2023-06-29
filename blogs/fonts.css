@@ -1,0 +1,43 @@
+:root {
+    --ff-poppins: 'Poppins', sans-serif;
+  }
+  
+  html {
+    font-family: var(--ff-poppins);
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+  }
+  
+  .yes {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .title {
+    color: yellow;
+  }
+  
+  .image-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .image-caption {
+    margin-left: 10px;
+  }
+  
+  .p {
+    margin-top: 20px;
+    line-height: 1.5;
+  }
+  
+  body {
+    background-color: hsl(240, 2%, 12%);
+  }
+  
